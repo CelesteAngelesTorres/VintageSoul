@@ -1,0 +1,132 @@
+h1{ background-color: #F9DAE3;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .menu{
+     color: crimson;
+     font-family: 'Dongle', sans-serif;
+     background-color: #F7F7F7;
+     text-align: left;
+     font-size: 25px;
+     font-weight: bolder;
+    
+   
+
+ }
+ .menu li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block; 
+    width: auto;
+}
+.navincons img{
+    width: auto; 
+ max-height: 25px; 
+}
+
+ #logo{
+     padding: 5px;
+   
+     width: 0 auto;
+ }
+
+.divcentro{
+    width: 95%;
+}
+ 
+.imgc{
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    padding: 3px;
+    border-radius: 40px;
+    box-shadow: 5px 5px;
+}
+
+.imgf1{
+    width: auto;
+  
+}
+.imgf2{
+    width: auto;
+}
+
+cite { 
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;    
+}
+
+.titGaleria{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+footer{
+    color: crimson;
+     font-family: 'Dongle', sans-serif;
+     font-size: 25px;
+     padding: 5px;
+     width: auto;
+}
+
+body{
+    display: block;
+    text-align: center;
+}
+
+.container{
+    background-color: #FFEBF2; 
+
+}
+
+.der{
+    text-align: center;
+}
+
+.none{
+    text-decoration: none;
+    text-align: left;
+ 
+}
+
+.contacto1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contacto{
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.login{
+    
+    padding: 20px;
+}
+
+.log{
+    border-radius: 50px;
+    border: solid 1px grey;
+    box-shadow:  5px 5px rgba(236, 211, 218, 3);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px 3px;
+    margin: 3px;
+}
+
+.logsend{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.logsend:hover{
+    cursor: pointer;
+}
+
+.register{
+    padding: 1px;
+    font-size:20%;
+    font-family: 'Montserrat', sans-serif;
+    
+}

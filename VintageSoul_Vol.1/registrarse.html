@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Soul</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@300&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>        
+            <div id="logo"><a href="index.html"><img src="img/logonegrochica.png" width="15%"></a></div>
+             <!--NAV-->
+            <nav class="menu">
+                <ul class="navincons">
+                    <li> Menu <img src="img/menu.png"></li>
+                    <li> Favoritos<img src="img/favorito.png"></li>
+                    <li> Tienda<img src="img/carrito.png"></li>
+                    <a href="login.html" target="blanck"><li> Login <img src="img/login.png"></li></a>
+                </ul>
+            </nav>
+    </header>
+    <div class="container">
+        <h1>¡Bienvenido/a!</h1>
+<div class="register">
+            <form action="/formulario" method="POST">
+                <label for="nombre"></label>
+                <input class="log" type="text"  id="nombre" name="nombre" placeholder="Nombre">
+
+                <label for="apellido"></label>
+                <input class="log" type="text" id="apellido" name="apellido" placeholder="Apellido">
+                <br>
+                <label for="email"></label>
+                <input  class="log" type="email" id="email" name="email" placeholder="Email">
+                <br>
+                <label for="date"> Edad</label>
+                <input class="log" type="date" id="tentacles" name="dates" value="1900-06-01">
+                <br>
+                <input class="log" id="password" name="password" required="required" type="password" placeholder="Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+                <br>
+                 <label for="passwordsignup_confirm" class="youpasswd" > </label>
+        <input  class="log" id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="Confirmación contraseña"/>
+         <br>       
+        <input class="log" type="submit"></input>
+            </form>
+
+</div>
+      
+        
+     <footer>
+        <div class="footer">
+         
+
+            <p class="contacto">Contacto</p>
+
+            <!--whatsapp-->
+            <a href="https://api.whatsapp.com/send?phone=59171798255" class="none" target="blank"><img
+                    src="img/whatsapp.png" width="3%"> (591)-71798255</p></a>
+
+            <!--email-->
+            <a class="none" target="blank"
+                href="file:///C:/Users/celes/OneDrive/Escritorio/primeraWeb/contacto.html"><img src="img/correo.png"
+                    width="3%"></a> vintagesoul@gmail.com</p>
+
+            <!--Instagram-->
+
+            <a class="none" target="blank" href="https://www.instagram.com/vintagesoulferia/?hl=es"><img
+                    src="img/insta.png" width="3%">/vintagesoulferia</p>
+                <!--facebook-->
+
+                <a class="none" target="blank" href="https://www.facebook.com/CustomizatedSoul"><img src="img/face.png"
+                        width="3%">
+                    @CustomizatedSoul</a></p>
+
+                <p><a class="none" href=#logo>Volver al inicio </a></p>
+
+
+                <p class="der"> Derechos reservados 2018-2022 © </p>
+                <!--fin de pag-->
+        </div>
+     </footer>
+    </div>
+</body>
+
+
+</html>
