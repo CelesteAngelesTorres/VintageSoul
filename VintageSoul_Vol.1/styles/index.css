@@ -130,3 +130,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     
 }
+
+.form-group{
+    margin: 10px 5px;
+}
+
+.enviar{
+    background-color: lightpink;
+    font-size: 15px;
+    border-radius: 35%;
+}
